@@ -1,0 +1,15 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 10vh;
+    width: 100vw;
+    background-color: #2D333B;
+}
+
+h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}

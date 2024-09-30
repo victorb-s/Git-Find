@@ -1,0 +1,107 @@
+.conteudo{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background{
+    height: 90vh;
+    position: absolute;
+    left: -20vw;
+
+    user-select: none;
+    -webkit-user-drag: none;
+    
+    opacity: 0.05;
+}
+
+.info{
+    width: 60%;
+    margin-right: 90px;
+    margin-top: 40px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+input{
+    border: 1px solid #999999;
+    border-radius: 25px;
+
+    width: 85%;
+    margin-right: 12px;
+    padding: 10px;
+    background: transparent;
+
+    font-size: 18px;
+    color: white;
+    transition: 0.2s;
+
+    &:hover{
+        border: 1px solid white;
+    }
+}
+
+button{
+    border-radius: 1px solid #999999;
+    border-radius: 25px;
+
+    padding: 10px 20px;
+    background: #2D333B;
+
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+
+    transition: 0.2s;
+
+    &:hover{
+        background: #191c20;
+    }
+}
+
+.perfil{
+    display: flex;
+    margin: 5vh 0;
+}
+
+.perfil-dados{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile{  
+    width: 164px;
+    height: 164px;
+    margin-right: 32px;
+
+    border-radius: 500px;
+    border: 2px solid #E5E5E5;
+}
+
+.perfil-dados h3{
+    color: #d6d6d6;
+    font-size: 28px;
+    margin: 0;
+}
+
+.perfil-dados span{
+    display: block;
+    color: #999999;
+    font-size: 14px;
+    margin: 0;
+}
+
+.perfil-dados p{
+    color: #999999;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+}
+
+.repositorios h2{
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+    margin: 12px 0;
+}
